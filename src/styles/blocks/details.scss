@@ -1,0 +1,21 @@
+.details {
+  &__wrapper {
+    display: grid;
+    row-gap: 40px;
+
+    @include on-tablet {
+      row-gap: 48px;
+    }
+  }
+
+  &__button-container {
+    grid-column: 1 / -1;
+
+    justify-content: center;
+    margin-top: 40px;
+
+    @include on-tablet {
+      grid-column: 1 / -2;
+    }
+  }
+}
