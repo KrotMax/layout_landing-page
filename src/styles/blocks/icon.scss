@@ -4,7 +4,8 @@
   height: 24px;
   background-size: contain;
   background-repeat: no-repeat;
-  @include hover (transform, scale(1.2));
+
+  @include hover(transform, scale(1.2));
 
   @include on-tablet {
     height: 32px;
@@ -17,6 +18,13 @@
 
   &--menu {
     background-image: url(../icons/icon-burger-menu_2x.png);
+    transition: 0.3s;
+
+    @include on-desktop {
+      &:hover {
+        background-image: url(../icons/icon-burger-menu_2x-hover.png);
+      }
+    }
   }
 
   &--close {

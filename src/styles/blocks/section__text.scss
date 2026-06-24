@@ -1,9 +1,9 @@
 .section__text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 23px;
+  font-style: normal;
   line-height: 140%;
   margin: 0;
-  margin-top: 32px;
 
   color: $main-white-color;
 
@@ -12,7 +12,7 @@
     margin: 0;
   }
 
-  @include on-desktop{
+  @include on-desktop {
     grid-column: 7 / -1;
     margin: 0;
   }

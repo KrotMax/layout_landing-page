@@ -9,13 +9,20 @@
   }
 
   &__button-container {
-    grid-column: 1 / -1;
-
+    margin: auto;
     justify-content: center;
     margin-top: 40px;
 
     @include on-tablet {
-      grid-column: 1 / -2;
+      width: 400px;
+    }
+
+    @include on-desktop {
+      width: 324px;
+    }
+
+    &__link {
+      text-decoration: none;
     }
   }
 }

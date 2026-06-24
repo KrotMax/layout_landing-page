@@ -1,7 +1,6 @@
 .top-bar {
   padding-block: 24px;
 
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,8 +19,7 @@
     height: 38px;
     display: flex;
 
-    @include hover (transform, scale(1.2));
-
+    @include hover(transform, scale(1.2));
 
     @include on-tablet {
       width: 187px;
