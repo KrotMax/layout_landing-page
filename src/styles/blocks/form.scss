@@ -22,6 +22,7 @@
     outline: none;
     padding: 14px 0 14px 16px;
     margin-bottom: 16px;
+    color: $input-text-color;
   }
 
   &__textarea {
@@ -38,5 +39,6 @@
     padding: 14px 0 14px 16px;
     resize: none;
     margin-bottom: 32px;
+    color: $input-text-color;
   }
 }
