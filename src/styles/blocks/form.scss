@@ -28,9 +28,9 @@
     &:-webkit-autofill:hover,
     &:-webkit-autofill:focus,
     &:-webkit-autofill:active {
-      -webkit-box-shadow: 0 0 0 1000px #ffffff inset !important;
+      -webkit-box-shadow: 0 0 0 1000px $main-white-color inset !important;
 
-      -webkit-text-fill-color: #000000 !important;
+      -webkit-text-fill-color: $main-text-color !important;
 
       border-radius: 40px;
     }
