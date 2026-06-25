@@ -8,6 +8,8 @@
   background-position: center center;
   background-size: cover;
 
+  z-index: -1;
+
   @include on-tablet {
     background-image: url('../images/footer_tablet.png');
 
