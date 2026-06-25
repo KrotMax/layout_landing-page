@@ -5,10 +5,11 @@
   background-image: url('../images/footer_phone.png');
 
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
   background-size: cover;
+  background-attachment: fixed;
 
-  z-index: -1;
+  z-index: 1;
 
   @include on-tablet {
     background-image: url('../images/footer_tablet.png');
