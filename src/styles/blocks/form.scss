@@ -23,6 +23,18 @@
     padding: 14px 0 14px 16px;
     margin-bottom: 16px;
     color: $input-text-color;
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+      -webkit-box-shadow: 0 0 0 1000px #ffffff inset !important;
+
+      -webkit-text-fill-color: #000000 !important;
+
+      border-radius: 40px;
+    }
+
   }
 
   &__textarea {
